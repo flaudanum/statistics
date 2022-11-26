@@ -11,7 +11,12 @@ python = "^3.10"
 numpy = "^1.23.5"
 scipy = "^1.9.3"
 jupyterlab = "^3.5.0"
+ipympl = "^0.9.2"
+matplotlib = "^3.6.2"
 
+
+[tool.poetry.group.dev.dependencies]
+nbconvert = "^7.2.5"
 
 [build-system]
 requires = ["poetry-core"]
